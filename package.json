@@ -6,7 +6,7 @@
   "module": "dist/index.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/song7788q/umi-request.git"
+    "url": "git+https://github.com/song7788q/umi-request.git"
   },
   "bugs": "https://github.com/umijs/umi-request/issues",
   "scripts": {
@@ -17,8 +17,7 @@
     "test:cover": "umi-test --coverage",
     "lint": "umi-lint src",
     "ci": "npm run lint && npm run test:cover",
-    "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "precommit": "umi-lint --staged --prettier --fix"
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "author": {
     "name": "puwei",
