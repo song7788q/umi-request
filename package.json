@@ -1,12 +1,12 @@
 {
-  "name": "umi-request",
-  "version": "1.4.0",
+  "name": "umi-request-upgrade",
+  "version": "1.0.0",
   "description": "A request tool based on fetch.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:umijs/umi-request.git"
+    "url": "https://github.com/song7788q/umi-request.git"
   },
   "bugs": "https://github.com/umijs/umi-request/issues",
   "scripts": {
@@ -18,7 +18,6 @@
     "lint": "umi-lint src",
     "ci": "npm run lint && npm run test:cover",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "prepublishOnly": "rm -rf ./dist && npm run lint && npm run test && npm run build && np --no-cleanup --yolo --no-publish",
     "precommit": "umi-lint --staged --prettier --fix"
   },
   "author": {
